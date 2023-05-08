@@ -1,0 +1,102 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav{
+    background-color: rgb(126, 6, 6);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;   
+    width: 100%;
+    padding: 8px;
+    font-family: Impact, fantasy;
+    word-spacing: 10px;
+}
+
+footer {
+    background-color: rgb(96, 8, 8);
+    color: rgb(255, 255, 255);    
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Andale Mono, monospace;
+    margin-top: 4px;
+}
+
+.social, .spec{
+    display: inline-block;
+}
+
+
+
+.spec{
+    font-family: Andale Mono, monospace;	
+    color: rgb(255, 255, 255);
+    padding-left: 600px;
+}
+
+.main{
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.container{
+    padding-left: 5px;
+    color: rgb(0, 0, 0);
+    font-family: OCR A Std, monospace;
+}
+
+.cadastro{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 0px;
+    height: max-content;
+    font-family: Andale Mono, monospace;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(7, 7, 7);
+}
+
+.botao{
+    padding: 10px;
+    background-color: rgb(51, 168, 86);
+    color: white;
+    border-radius: 7%;
+}
+
+.botao:hover{
+    background-color: rgb(6, 182, 44);
+    transition: 0.7;
+}
+
+li {
+    list-style-type: none;
+}
+
+.valor{
+    color: red;
+    font-family: OCR A Std, monospace;
+}
+
+main{
+    display: flex; 
+    background-color: rgb(252, 212, 212);
+    padding-bottom: 5px;
+}
+.check {
+    display: inline-block;
+}
